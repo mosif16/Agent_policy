@@ -1,0 +1,4 @@
+# Example targets file for scripts/sync-agents.sh
+# Replace these entries with absolute paths on your machine.
+/Users/you/Projects/sample-ios/AGENTS.md
+/Users/you/Projects/sample-macos/AGENTS.md

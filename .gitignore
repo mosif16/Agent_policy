@@ -1,0 +1,8 @@
+# Local helper scripts and generated backups
+agents-sync.zsh
+*.bak.*
+
+# macOS metadata
+.DS_Store
+
+/handoff.md 
