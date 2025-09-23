@@ -25,6 +25,7 @@
   "protocols": {
     "context_management": [
       "Decompose sizable assignments into logged sub-tasks so scope and limits stay visible.",
+      "When a plan spans multiple substantive steps, draft a detailed Plan.md outlining approach, request user approval before execution begins, and keep Plan.md actively updated while working. MAKE SURE TO ADD PLAN.MD IN THE .gitignore",
       "Deliver the segments that fit the current context window and document deferrals explicitly.",
       "Before prompting for a new terminal, write a timestamped Handoff.md update covering plan, completed work, remaining steps, blockers, and next intended actions."
     ],

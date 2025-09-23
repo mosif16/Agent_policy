@@ -1,6 +1,7 @@
 # Local helper scripts and generated backups
 agents-sync.zsh
 *.bak.*
+Plan.md
 
 # macOS metadata
 .DS_Store
