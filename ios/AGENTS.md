@@ -25,6 +25,7 @@
   "protocols": {
     "context_management": [
       "Decompose sizable assignments into logged sub-tasks so scope and limits stay visible.",
+      "When a plan spans multiple substantive steps, draft a detailed Plan.md outlining approach, request user approval before execution begins, and keep Plan.md actively updated while working. MAKE SURE TO ADD PLAN.MD IN THE .gitignore",
       "Deliver the segments that fit the current context window and document deferrals explicitly.",
       "Before prompting for a new terminal, write a timestamped Handoff.md update covering plan, completed work, remaining steps, blockers, and next intended actions."
     ],
@@ -40,8 +41,8 @@
     ]
   },
   "knowledge": {
-    "design": "Liquid Glass surfaces must preserve contrast, honor accessibility toggles, and limit live blur stacks.",
-    "engineering": "Lean on Swift 6 structured concurrency, modular architecture, and typed observability; back changes with async tests and snapshots.",
-    "operations": "Maintain the handoff trail, perf/accessibility gates, and observability artifacts before merges."
+    "design": "Liquid Glass surfaces must hold WCAG 2.1 AA contrast (≥4.5:1), honor Reduce Transparency/Increase Contrast fallbacks, and stay aligned with Apple’s Liquid Glass material guidance so translucency amplifies content without readability debt.",
+    "engineering": "Adopt Swift 6 language mode (or `-strict-concurrency=complete` in Swift 5.10) to surface data-race risks as compile-time errors, reinforce Sendable modeling with typed observability, and watch Ready for Swift 6 metrics—43% of indexed packages already report zero data race errors—to prioritize dependency upgrades and async test coverage.",
+    "operations": "Treat strict concurrency regressions as release blockers in CI, track Ready for Swift 6 dashboards to spot lagging dependencies, and prep support playbooks around Liquid Glass accessibility toggles for users reporting eye strain so handoffs stay accountable."
   }
 }
